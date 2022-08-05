@@ -1,0 +1,120 @@
+#favorite {
+  padding: 36px 0 120px;
+  background: url(../img/img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%; //vw
+  position: relative;
+  top: 0;
+
+  &::after {
+    content: "";
+    width: 100%; //vw
+    height: 100%; //vh
+    background-color: $_background_color;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+.logo__wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  line-height: 50px;
+  margin-bottom: 130px;
+
+  &::after {
+    content: "";
+    width: 1170px;
+    border-bottom: 1px solid rgba(186, 187, 197, 0.9);
+  }
+}
+.logo__img {
+  margin: 0 15px;
+  &::after {
+    content: "BOX";
+    width: 61px;
+    height: 27px;
+    color: #ffffff;
+    font-family: "Raleway";
+    font-weight: 200;
+    font-size: $_36px;
+  }
+}
+
+.navigation__list {
+  width: 520px;
+  margin: 0 15px;
+  display: flex;
+  justify-content: space-between;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transition: 0.2s;
+    cursor: pointer;
+    width: 134px;
+    &:hover {
+      border-bottom: 2px solid rgba(186, 187, 197, 1);
+      transform: scale(1.1);
+    }
+    &__a {
+      color: $_white;
+      font-family: "Raleway";
+      font-weight: 700;
+      font-size: $_13px;
+      line-height: 15px;
+      text-transform: uppercase;
+      margin: auto;
+    }
+  }
+}
+
+.main__title {
+  font-family: "Raleway";
+  font-weight: 900;
+  font-size: $_64px;
+  line-height: 75px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: $_white;
+  margin-bottom: 32px;
+}
+.main__title__text {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: $_24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: $_white;
+  margin-bottom: 82px;
+}
+.main__title__btn {
+  width: 369px;
+  height: 78px;
+  background-color: $_color_button;
+  margin: auto;
+  display: block;
+  font-family: "Raleway";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  border: none;
+  & a {
+    color: $_white;
+    margin: auto;
+  }
+}

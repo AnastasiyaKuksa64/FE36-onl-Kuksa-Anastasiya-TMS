@@ -1,0 +1,26 @@
+{
+  "name": "fe36-onl-kuksa-anastasiya-tms",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnastasiyaKuksa64/FE36-onl-Kuksa-Anastasiya-TMS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnastasiyaKuksa64/FE36-onl-Kuksa-Anastasiya-TMS/issues"
+  },
+  "homepage": "https://github.com/AnastasiyaKuksa64/FE36-onl-Kuksa-Anastasiya-TMS#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0",
+    "sass": "^1.54.3"
+  }
+}
